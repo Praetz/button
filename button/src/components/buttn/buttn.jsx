@@ -3,15 +3,14 @@ import '../buttn/buttn.jsx';
 
 const name = showText
 
-function buttn() {
+export default function buttn() {
     return (
-        <div>
-            <p class="name">freeCodeCamp</p>
-            <button onclick='showText'>Change to Blue</button>
-        </div>
+        
+        
+<button onClick={this.buttn.name}>Meet Someone New</button>
 
     );
 
-}
+} console.log(name)
 
 
