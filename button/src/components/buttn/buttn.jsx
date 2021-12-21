@@ -1,16 +1,16 @@
 import React from 'react';
-import '../buttn/buttn.css'
+import './Buttn.css'
 
 const name = 'showText';
 
-export default function buttn() {
+export default function Buttn() {
     return (
-        
-        
-<button onClick={this.buttn.name}>Meet Someone New</button>
-
+        <div>
+            <p className="name">freeCodeCamp</p>
+            <button onclick="changeColor()">Change to Blue</button>
+        </div>
     );
 
-} console.log(name)
+} 
 
 

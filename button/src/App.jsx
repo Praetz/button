@@ -1,11 +1,10 @@
-
 import './App.css';
-import './components/buttn/buttn'
+import Buttn from './components/Buttn/Buttn';
 
 function App() {
   return(  
-    <div>
-       <buttn />
+    <div className='App'>
+       <Buttn />
     </div>
   );
 }
