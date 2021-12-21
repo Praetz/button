@@ -1,7 +1,7 @@
 import React from 'react';
-import '../buttn/buttn.jsx';
+import '../buttn/buttn.css'
 
-const name = showText
+const name = 'showText';
 
 export default function buttn() {
     return (
